@@ -10,6 +10,6 @@ public class UserFacadeTestIT extends UserFacadeTest{
 	
 	@Override
 	public IUserFacade makeUserFacade() {
-		return new UserFacadeRealDB("pu_localDB");
+		return new UserFacadeRealDB("pu_locaB");
 	}
 }

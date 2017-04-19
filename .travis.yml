@@ -6,3 +6,10 @@ cache:
     - $HOME/.m2
 script:
 - mvn verify
+
+notifications:
+  email:
+    recipients:
+      - mulle355@hotmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
