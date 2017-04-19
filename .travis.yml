@@ -13,3 +13,9 @@ notifications:
       - mulle355@hotmail.com
     on_success: never # default: change
     on_failure: always # default: always
+
+
+services:
+   - mysql
+before_install:
+  - mysql -e 'CREATE DATABASE usersDB;'
