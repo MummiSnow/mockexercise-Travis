@@ -5,4 +5,4 @@ cache:
     - node_modules
     - $HOME/.m2
 script:
-- mvnverify
+- mvn verify
